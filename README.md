@@ -12,7 +12,7 @@ Due to the millions of css styling available, it is easier and faster to have so
 - [License](#license)
 
 ## Installation
-This website has no installation process, just visit https://cheptegei-create.github.io/challenge-1/
+This website has no installation process, just visit https://cheptegei-create.github.io/mini-project-2/
 
 ## Usage
 
