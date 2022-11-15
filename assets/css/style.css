@@ -1,4 +1,7 @@
 :root {
+  --pink: #e867ed;
+  --display: flex;
+  --pix: 20px;
 }
 
 * {
@@ -6,7 +9,7 @@
 }
 
 body {
-  display: flex;
+  display: var(--display);
   flex-direction: column;
   background-color: #333940;
 }
@@ -20,11 +23,11 @@ footer {
 }
 
 main {
-  display: flex;
+  display: var(--display);
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 20px;
-  padding: 20px;
+  margin: var(--pix);
+  padding: var(--pix);
 }
 
 h1 {
@@ -40,14 +43,15 @@ h3 {
 }
 
 h1,
+h2,
 h3 {
-  color: #e867ed;
+  color: var(--pink);
 }
 
 .card ul {
   list-style: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: var(--pix);
+  margin-bottom: var(--pix);
   padding-top: 30px;
   padding-bottom: 30px;
   background-image: linear-gradient(
@@ -57,12 +61,12 @@ h3 {
 }
 
 .card {
-  display: flex;
+  display: var(--display);
   flex-direction: column;
   border-style: dashed;
   border-width: 1px;
   padding: 10px;
-  margin: 20px;
+  margin: var(--pix);
   width: 25%;
 }
 
@@ -92,9 +96,9 @@ h3 {
 }
 
 .card h2 + p {
-  color: #e867ed;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  color: var(--pink);
+  margin-top: var(--pix);
+  margin-bottom: var(--pix);
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
